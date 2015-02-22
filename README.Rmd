@@ -1,0 +1,26 @@
+---
+title: "README"
+author: "Zoe Fleischmann"
+date: "February 22, 2015"
+output: html_document
+---
+
+#Overview
+The purpose of this project is to demonstrate my ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis.
+
+#Making Modifications
+You should not need to make any modifications to the script. The files will be downloaded to your working directory into a folder called data. The working directory is then set to this folder. 
+
+#About Raw Data
+The features are unlabeled and can be found in x test and train text files; activity labels are in y test and train file; test subjects in the subject test file.
+
+#Project Summary
+You should create one R script called run_analysis.R that does the following. 
+- Merges the training and the test sets to create one data set. 
+- Extracts only the measurements on the mean and standard deviation for each measurement. 
+- Uses descriptive activity names to name the activities in the data set 
+- Appropriately labels the data set with descriptive activity names. 
+- Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+# Additional Information
+Additional information may be found in the CodeBook.MD file (esp about variables, data, and transformations)
